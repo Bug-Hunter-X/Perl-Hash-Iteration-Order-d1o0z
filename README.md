@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Perl where the order of elements in a hash is not guaranteed.  The first loop iterates through the hash in an unpredictable order, while the second loop uses 'sort keys' to guarantee a consistent order.  This is important when you rely on a specific order for processing.
